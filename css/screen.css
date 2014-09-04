@@ -1,0 +1,189 @@
+/* @warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support"; */
+/* @warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support"; */
+/* @warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support"; */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="submit"], button { cursor: pointer; }
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+body { font: normal 13px/1.15 "Trebuchet MS" helvetica, Arial, sans-serif; color: #2f2415; }
+
+.l-layout { width: 860px; margin: 10px auto; *zoom: 1; }
+.l-layout:after { content: " "; display: table; clear: both; }
+
+.header__logo { float: left; *zoom: 1; }
+.header__logo:after { content: " "; display: table; clear: both; }
+
+.logo__title { display: none; }
+
+.logo__img { display: block; color: #2f2415; text-decoration: none; }
+.logo__img p { font-size: 18px; }
+
+.header__wrap, .menu { float: left; width: 655px; *zoom: 1; }
+.header__wrap:after, .menu:after { content: " "; display: table; clear: both; }
+
+.header__phone, .header__time, .header__loc { position: relative; margin-left: 30px; float: left; width: 160px; }
+.header__phone:before, .header__time:before, .header__loc:before { content: ""; position: absolute; width: 33px; height: 33px; top: 3px; left: 0; background-image: url("../img/icons/phone.png"); }
+.header__phone a, .header__phone p, .header__time a, .header__time p, .header__loc a, .header__loc p { display: block; color: #2f2415; text-decoration: none; margin: 0 0 10px 45px; }
+
+.header__time:before { background-image: url("../img/icons/clock.png"); }
+
+.header__loc { width: 245px; }
+.header__loc p { margin-left: 35px; }
+.header__loc:before { width: 22px; height: 32px; background-image: url("../img/icons/loc.png"); }
+
+.menu { margin: 22px 0 0 30px; width: 625px; font-size: 0; *zoom: 1; }
+.menu:after { content: " "; display: table; clear: both; }
+
+.sub__menu { display: none; padding-top: 14px; position: absolute; top: 20px; left: -210px; z-index: 20; }
+
+.menu__item { display: inline-block; position: relative; margin-left: 45px; text-align: center; }
+.menu__item:first-child { margin-left: 0; }
+.menu__item:last-child { text-align: right; }
+.menu__item > a { text-decoration: none; color: #2f2415; font-family: "Trebuchet MS", helvetica; font-size: 17px; }
+.menu__item > a:hover { border-bottom: 2px solid #2f2415; }
+.menu__item + .is-active { position: relative; z-index: 2; }
+.menu__item + .is-active:hover .sub__menu { display: block; width: 440px; font-size: 16px; }
+.menu__item + .is-active:hover:after { content: ""; position: absolute; bottom: -12px; left: 50%; margin-left: -5px; width: 0px; height: 0px; border-style: solid; border-width: 0 6px 6px 6px; border-color: transparent transparent #2f2415 transparent; }
+
+.sub__menu-item { display: inline-block; margin: 2px 0 0 25px; z-index: 40; }
+.sub__menu-item:first-child { margin-left: 0; }
+.sub__menu-item a { display: block; color: white; font-family: "Trebuchet MS", helvetica; font-size: 16px; text-decoration: none; z-index: 5; }
+.sub__menu-item a:hover { border-bottom: 2px solid #acaaa7; }
+
+.search { position: relative; height: 35px; background-color: #2f2415; }
+
+.top__search { position: relative; float: right; width: 165px; height: 20px; border-radius: 3px; background-color: white; color: #2f2415; margin-top: 7px; padding-left: 10px; font-size: 13px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.top__search + i { position: absolute; top: 10px; right: 205px; width: 15px; height: 15px; background-image: url("../img/icons/search.png"); }
+.top__search::-webkit-input-placeholder { padding-left: 95px; }
+
+.b-layout { width: 885px; margin: 30px auto 0 auto; *zoom: 1; }
+.b-layout:after { content: " "; display: table; clear: both; }
+
+.restourant__menu-wrap { display: inline-block; margin-left: 15px; text-decoration: none; }
+.restourant__menu-wrap:first-child { margin-left: 0; }
+.restourant__menu-wrap:hover .restourant__menu:after, .restourant__menu-wrap .is-active:after { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.restourant__menu { position: relative; width: 205px; height: 205px; border-radius: 50%; overflow: hidden; z-index: 3; }
+.restourant__menu:after { content: ""; position: absolute; top: 0; left: 0; width: 205px; height: 205px; cursor: pointer; border-radius: 50%; -moz-box-shadow: 0px 0px 80px 105px rgba(0, 0, 0, 0.5) inset; -webkit-box-shadow: 0px 0px 80px 105px rgba(0, 0, 0, 0.5) inset; box-shadow: 0px 0px 80px 105px rgba(0, 0, 0, 0.5) inset; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -ms-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+.restourant__menu img { display: block; width: 205px; height: 205px; }
+
+.restourant__menu-title { text-align: center; margin-top: 20px; font: bold 23px "Trebuchet MS", helvetica; color: #2f2415; border-bottom: none; }
+
+.salads { margin-top: 55px; *zoom: 1; }
+.salads:after { content: " "; display: table; clear: both; }
+
+.line { width: 100%; margin-bottom: 20px; height: 2px; background-image: url("../img/icons/hr.png"); }
+
+.col_1, .col_2 { width: 405px; *zoom: 1; }
+.col_1:after, .col_2:after { content: " "; display: table; clear: both; }
+
+.salads__col { position: relative; margin: 20px 0; width: 405px; *zoom: 1; }
+.salads__col:hover i { position: absolute; left: 65px; top: 50%; width: 43px; height: 43px; background-image: url("../img/icons/lupa.png"); }
+.salads__col:after { content: " "; display: table; clear: both; }
+
+.col_1, .col__img { float: left; }
+
+.col_2 { float: right; }
+
+.col__img { width: 220px; margin-left: -35px; }
+.col__img img { -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; }
+.col__img img:hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1); }
+
+.col__item { padding: 30px 0 0 225px; }
+
+.col__title, .col__cont { font-style: italic; }
+
+.delivery { margin: 50px 0 20px 0; font-size: 18px; color: #2f2415; }
+.delivery a { color: #006ddb; text-decoration: none; border-bottom: 1px solid #006ddb; }
+.delivery a:hover { border-bottom: none; }
+
+.footer { position: relative; height: 500px; margin: 0; padding: 0; background-color: #1c1c1c; color: white; *zoom: 1; }
+.footer:after { content: " "; display: table; clear: both; }
+
+.soc { width: 220px; margin: 30px auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.soc a { display: inline-block; margin-right: 10px; width: 37px; height: 37px; border-radius: 50%; }
+.soc a:hover { -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
+
+.twit { background-image: url("../img/icons/twiter.png"); }
+
+.vk { background-image: url("../img/icons/vk.png"); }
+
+.f { background-image: url("../img/icons/f.png"); }
+
+.ok { background-image: url("../img/icons/ok.png"); }
+
+.f__menu { width: 490px; margin: 0 auto 30px; }
+.f__menu a { margin-right: 25px; text-decoration: none; color: white; font-size: 16px; }
+.f__menu a:hover { color: #494949; }
+
+.footer__content { width: 690px; margin: 0 auto; padding: 25px; border: 1px solid; -moz-border-image: url("../img/icons/f_d.png") 5 0/5 0 repeat; -o-border-image: url("../img/icons/f_d.png") 5 0/5 0 repeat; -webkit-border-image: url("../img/icons/f_d.png") 5 0/5 0 repeat; border-image: url("../img/icons/f_d.png") 5 0/5 0 repeat; *zoom: 1; }
+.footer__content:after { content: " "; display: table; clear: both; }
+
+.footer__content { *zoom: 1; }
+.footer__content:after { content: " "; display: table; clear: both; }
+
+.footer__contact-wrap { width: 340px; float: left; *zoom: 1; }
+.footer__contact-wrap:after { content: " "; display: table; clear: both; }
+
+.footer__phone, .footer__time, .footer__loc { position: relative; margin-left: 45px; float: left; width: 340px; margin-bottom: 20px; }
+.footer__phone:before, .footer__time:before, .footer__loc:before { content: ""; position: absolute; width: 33px; height: 33px; left: 0; top: 0; background-image: url("../img/icons/call.png"); }
+.footer__phone a, .footer__phone p, .footer__time a, .footer__time p, .footer__loc a, .footer__loc p { color: white; display: block; text-decoration: none; margin: 0 0 10px 45px; }
+
+.footer__time:before { background-image: url("../img/icons/f_clock.png"); }
+
+.footer__loc:before { width: 22px; height: 32px; left: 5px; background-image: url("../img/icons/f_nav.png"); }
+
+.footer__partner { width: 340px; float: left; *zoom: 1; }
+.footer__partner p { margin-bottom: 10px; }
+.footer__partner a { font-weight: bold; color: white; text-decoration: none; border-bottom: 1px solid white; }
+.footer__partner a:hover { border-bottom: none; }
+.footer__partner:after { content: " "; display: table; clear: both; }
+
+.footer__form { margin-top: 20px; }
+
+.footer__number { width: 184px; height: 35px; font-size: 18px; letter-spacing: 4px; color: #585757; background-color: #323232; border-radius: 3px; padding: 8px 17px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.f_button { width: 117px; height: 35px; font-size: 18px; border-radius: 3px; color: white; margin-left: 10px; background-color: #f7941d; padding: auto; -webkit-box-shadow: -1px 1px 6px black; box-shadow: -1px 1px 6px black; *zoom: 1; }
+.f_button:hover { -webkit-box-shadow: inset -1px 1px 10px rgba(255, 255, 255, 0.7); box-shadow: inset -1px 1px 10px rgba(255, 255, 255, 0.7); }
+.f_button:after { content: " "; display: table; clear: both; }
+
+.footer__down { margin: 30px auto; width: 685px; color: #323232; *zoom: 1; }
+.footer__down a { text-decoration: none; color: #323232; border-bottom: 1px solid #323232; }
+.footer__down:after { content: " "; display: table; clear: both; }
+
+.f_caffe { float: left; }
+.f_caffe b { font-weight: bold; font-style: bold; font-size: 18px; }
+.f_caffe span { color: #6d6e6e; margin-left: 3px; }
+.f_caffe a { margin-left: 5px; }
+
+.f_maked { float: right; }
+
+.clear { clear: both; width: 0; height: 0; overflow: hidden; }
