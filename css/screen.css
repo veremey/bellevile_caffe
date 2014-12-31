@@ -80,8 +80,7 @@ body { font: normal 13px/1.15 "Trebuchet MS" helvetica, Arial, sans-serif; color
 
 .search { position: relative; height: 35px; background-color: #2f2415; }
 
-.top__search { position: relative; float: right; width: 165px; height: 20px; border-radius: 3px; background-color: white; color: #2f2415; margin-top: 7px; padding-left: 10px; font-size: 13px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-.top__search + i { position: absolute; top: 10px; right: 205px; width: 15px; height: 15px; background-image: url("../img/icons/search.png"); }
+.top__search { float: right; width: 165px; height: 20px; border-radius: 3px; background-color: white; color: #2f2415; margin-top: 7px; padding-left: 10px; font-size: 13px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .top__search::-webkit-input-placeholder { padding-left: 95px; }
 
 .b-layout { width: 885px; margin: 30px auto 0 auto; *zoom: 1; }
